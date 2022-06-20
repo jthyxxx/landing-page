@@ -17,8 +17,7 @@ body{
 
 .first-center{
     width: 80%;
-    border: 3px solid blue;
-    height: 99.4vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     gap: 175px;
@@ -105,7 +104,6 @@ button:hover{
 
 .second-center{
     width: 80%;
-    border: 3px solid blue;
     height: 99.4vh;
     display: flex;
     flex-direction: column;
@@ -158,7 +156,6 @@ h1{
 
 .third-center{
     width: 80%;
-    border: 3px solid blue;
     height: 99.4vh;
     display: flex;
     justify-content: center;
@@ -189,8 +186,7 @@ h3{
 
 .fourth-center{
     width: 80%;
-    border: 3px solid blue;
-    height: 99.4vh;
+    height: 95.4vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -199,4 +195,46 @@ h3{
     font-style: italic;
     font-weight: bold;
     flex-direction: column;
+}
+
+.call-to-action{
+    background-color: #073d92;
+    width: 1000px;
+    height: 150px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer{
+    background-color: aliceblue;
+    height: 4.6vh;
+    width: 100%;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.footer-button{
+    background-color:#e5e7eb;
+    color: #1e6ae4;
+    margin-right: 100px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.footer-button:hover{
+    background-color: azure;
+}
+
+h6{
+    margin: 0 0 0 50px;
+    padding: 0;
+}
+
+.action{
+    margin: 0 0 0 50px;
+    font-size: 20px;
 }
