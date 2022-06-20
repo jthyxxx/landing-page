@@ -117,3 +117,53 @@ h1{
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
 }
+
+.some-box{
+    display: flex;
+    height: 380px;
+    gap: 35px;
+}
+
+
+.one, .two, .three, .four{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 350px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.box{
+    border: 5px solid cornflowerblue;
+    flex: 1;
+    border-radius: 15px;
+    padding-bottom: 50px;
+}
+
+.text{
+    align-items: flex-end;
+    padding-bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.third{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.third-center{
+    width: 80%;
+    border: 3px solid blue;
+    height: 99.4vh;
+    display: flex;
+}
+
+.prog-quotes{
+    justify-content: center;
+    align-items: center;
+}
