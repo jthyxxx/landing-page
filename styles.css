@@ -1,0 +1,21 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.first{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.first-center{
+    width: 80%;
+    border: 3px solid blue;
+    height: 95vh;
+}
+
+.header{
+    display: flex;
+}
