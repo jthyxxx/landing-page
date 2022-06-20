@@ -161,9 +161,42 @@ h1{
     border: 3px solid blue;
     height: 99.4vh;
     display: flex;
-}
-
-.prog-quotes{
     justify-content: center;
     align-items: center;
+    font-size: 56px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+.author{
+    width: 95%;
+    margin-top: 15px;
+    text-align: right;
+}
+
+h3{
+    margin: 20px;
+    padding: 0;
+}
+
+.fourth{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.fourth-center{
+    width: 80%;
+    border: 3px solid blue;
+    height: 99.4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 56px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    flex-direction: column;
 }
